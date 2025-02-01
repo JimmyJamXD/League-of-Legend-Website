@@ -1,0 +1,208 @@
+.main-lore{
+    margin-top: 80px;
+    padding: 0;
+}
+
+.main-div-lore > img{
+    position: absolute;
+    z-index: -1;
+    filter:blur(3px);
+}
+
+.main-bg-image{
+    object-fit: cover;
+    background-size: fill;
+    height: 140%;
+    width: 100%;
+}
+
+.story-lore{
+    margin-top: 60px;
+    line-height: 30px;
+    height: 8rem;
+    color: black;
+}
+
+.story-lore h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Beaufort for LOL" ,Arial,sans-serif, ;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.story-lore p{
+    text-align: center;
+    align-content: center;
+    font-family: "FF Mark W05,Arial,sans-serif";
+    font-weight: bold;
+    font-size: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.d-block {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #b59758;
+    width: 70%;
+}
+
+.carousel-Content-Wrap{
+    height: 175px;
+    width: 50%;
+    position: relative;
+    top: -100px;
+    background: #131315;
+    border: 1px solid #342b20;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.carousel-Content-Info{
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    bottom: 17px;
+    left: 17px;
+    border: 1px solid #342b20;
+}
+
+.carousel-Content-Info-Wrap{
+    position: absolute;
+    top: 19px;
+    right: 23px;
+    bottom: 19px;
+    left: 23px;
+    border: 1px solid #c4b998;
+}
+
+.carousel-heading{
+    font-family: "Beaufort for LOL,Arial,sans-serif";
+    font-weight: 500;
+    font-size: 35px;
+    height: 97px;
+    width: 50%;
+    border-right: 0.5px solid #c4b998;
+    color: #d3c7aa;
+    float: left;
+    letter-spacing: .14em;
+    line-height: 94px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.carouselExploreBtn{
+    font-family: "Beaufort for LOL,Arial,sans-serif";
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+    color: #b59758;
+    display: block;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.genericTitle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.genericTitle a{
+    font-size: 30px;
+    color: #b59758;
+    font-family: "Beaufort for LOL,Arial,sans-serif";
+    text-decoration: none;
+}
+
+.image-item{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color:black ;
+    background-position: center;
+}
+
+.img-title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin-top: -100px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+@media (min-width: 1025px) and (max-width: 1500px){
+    .carousel-heading{
+        font-size: 20px;
+    }
+
+    .story-lore p{
+        text-align: center;
+        align-content: center;
+        font-family: "FF Mark W05,Arial,sans-serif";
+        font-weight: bold;
+        width: 90%;
+    }
+    
+    .genericTitle{
+        display: flex;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .genericTitle a{
+        font-size: 20px;
+        text-decoration: none;
+    } 
+}
+
+@media (max-width: 1024px)
+{
+    .carousel-Content-Info-Wrap{
+        position: absolute;
+        top: 19px;
+        right: 23px;
+        bottom: 19px;
+        left: 23px;
+    }
+
+    .carousel-heading{
+        font-size: 20px;
+    }
+
+    .story-lore p{
+        text-align: center;
+        align-content: center;
+        font-family: "FF Mark W05,Arial,sans-serif";
+        font-weight: bold;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .genericTitle{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+
+    .genericTitle a{
+        display: flex;
+        font-size: 15px;
+        text-decoration: none;
+    } 
+}
